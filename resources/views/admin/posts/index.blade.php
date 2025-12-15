@@ -2,6 +2,7 @@
 @section('content')
 
 <h3>Posts</h3>
+<a href="dashboard" class="btn btn-secondary">Back</a>
 <a href="{{ route('admin.posts.create') }}" class="btn btn-success mb-2">Add Post</a>
 
 @if(session('success'))

@@ -35,5 +35,6 @@
     </div>
 
     <button class="btn btn-success">Save Category</button>
+    <a href="{{ route('admin.categories.index') }}" class="btn btn-secondary">Back</a>
 </form>
 @endsection
